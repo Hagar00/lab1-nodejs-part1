@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li  style="display:inline-block; "><a href="/about"> about </a></li>
+                <li  style="display:inline-block; "><a href="/register"> register </a></li>
+                <li  style="display:inline-block; "><a href="/index"> home </a> </li>
+            </ul>
+        </div>
+    </div>
+    <h2> this is register page </h2>
+    <form action="/register" method="post">
+        <label for="name">Name</label>
+        <input type="text" placeholder="enter your name" id="name" name="name"> <br>
+        <label for="email"> email </label>
+        <input type="email" name="email" id="email"> <br>
+        <label for="password"> password </label>
+        <input type="password" name="password" id="password"> <br> <br>
+        <input type="submit" value="Add user ">
+    </form>
+</body>
+</html>
